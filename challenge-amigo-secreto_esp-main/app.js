@@ -47,7 +47,7 @@ function sortearAmigo(){
     }else{
         let numeroSorteado = Math.floor(Math.random() * amigos.length);
         console.log(numeroSorteado);
-        resultadoSorteo.innerHTML = `<li>Te ha tocado como amigo secreto a: ${amigos[numeroSorteado]}`;
+        resultadoSorteo.innerHTML = `<li>Te ha tocado como amigo secreto a: ${amigos[numeroSorteado]}</li>`;
     }
 }
 
